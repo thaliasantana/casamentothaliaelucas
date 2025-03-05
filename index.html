@@ -1,120 +1,193 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-	<title>Casamento T & L</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-	<link rel="stylesheet" href="style.css">
-	<link rel="icon" href="favicon/favicon.ico" type="image/x-icon">
-	
-</head>
-<body>
-	<div class="menu-superior">
-        <nav>
-			<!-- Ícone do menu hambúrguer -->
-            <div class="menu-toggle" onclick="toggleMenu()">
-                &#9776;
-            </div>
-            <ul id="menu-list">
-				<li><img src="logo.png" alt="Thalia e Lucas" width="50em"></li>
-                <li><a href="#inicio">Início</a></li>
-				<li><a href="#confirmar-presenca">Confirmar Presença</a></li>
-				<li><a href="#nossa-historia">Nossa História</a></li>
-                <li><a href="presentes.html">Lista de Presentes</a></li>
-                <li><a href="hospedagem-beleza.html">Hospedagem e Beleza</a></li>
-				<li><a href="#local">Local</a></li>
-            </ul>
-        </nav>
+  <head>
+    <title>Casamento T & L</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="favicon/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <p id="inicio"></p>
+    <div class="menu-superior">
+      <nav>
+        <!-- Ícone do menu hambúrguer -->
+        <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+        <ul id="menu-list">
+          <li>
+            <img
+              src="logo.png"
+              alt="Thalia e Lucas"
+              width="70em"
+              style="margin-top: -6px"
+            />
+          </li>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#confirmar">Confirmar Presença</a></li>
+          <li><a href="#nossa-historia">Nossa História</a></li>
+          <li><a href="presentes.html">Lista de Presentes</a></li>
+          <li><a href="hospedagem-beleza.html">Hospedagem e Beleza</a></li>
+          <li><a href="#local">Local</a></li>
+        </ul>
+      </nav>
     </div>
-	
-    <header>
-    </header>
+
+    <header></header>
+
+    <p id="confirmar"></p>
 
     <div class="content">
-		<br>
-		<h1><img src="monograma.png" alt="Monograma" class="monograma"></h1>
-        <p>12 de julho de 2025</p>
-        	
-		<h1><img src="divisoria.png" alt="Divisoria" class="divisoria"></h1>
-		
-		<div class="countdown" id="countdown">
-			Faltam <span id="days"></span> dias para o grande dia!
-		</div>
-		
-		<div id="confirmar-presenca" class="button">
-            <a href="https://wa.me/556284775774?text=Olá! Confirmo presença no casamento de *Thalia e Lucas* com muita alegria! Será um prazer fazer parte deste momento tão importante, no dia 12 de julho de 2025. 💕%0a%0aNome completo: %0aNome(s) de demais acompanhantes (quando houver): " target="_blank">
-                Confirmar Presença
-            </a>
-        </div>
-		
-		<div class="info-icons">
-			<div class="icon">
-				<img src="despertador.png" alt="Horário"> 
-				<p>16h30</p>
-			</div>
-			<div class="icon">
-				<img src="igreja.png" alt="Local"> 
-				<p>Estância Graciosa</p>
-			</div>
-			<div class="icon">
-				<img src="pin.png" alt="Cidade">
-				<p>Rubiataba-GO</p>
-			</div>
-		</div>
-		
-		<div id="sobre-nos" class="story">
-			<img src="historia.jpg" alt="Foto do casal">
-			<div class="text">
-				<h3>Nossa História</h3>
-				<p>Conversamos pela 1ª vez no grupo de WhatsApp do ônibus da faculdade, quando o acaso nos uniu de maneira especial. Desde então, construímos uma jornada de cumplicidade, amor e sonhos compartilhados. Este casamento é o início de um novo capítulo repleto de felicidade e união!</p>
-			</div>
-		</div>
-		
-		<div class="container">
-			<div class="card">
-				<h3>Lista de Presentes</h3>
-				<p>Confira uma sugestão de lista de presentes e contribua para o nosso novo lar.</p>
-				<div class="button">
-				<a href="presentes.html" target="_blank">Saiba mais</a>
-				</div>
-			</div>
-			<div class="card">
-				<h3>Hospedagem e Beleza</h3>
-				<p>Veja opções de hospedagem e espaços de beleza na cidade da cerimônia.</p>
-				<div class="button">
-				<a href="hospedagem.html" target="_blank">Saiba mais</a>
-				</div>
-			</div>
-		</div>
-		
-		<br>
+      <br />
+      <h1><img src="monograma.png" alt="Monograma" class="monograma" /></h1>
+      <p>12 de julho de 2025</p>
 
-        <iframe id="local" class="map" 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3850.829135233551!2d-49.786676199999995!3d-15.1677255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9342b369dc063369%3A0x3b76e42853eea471!2sEst%C3%A2ncia%20Graciosa%20-%20Rubiataba%20-%20Go!5e0!3m2!1spt-BR!2sbr!4v1734699299676!5m2!1spt-BR!2sbr" 
-            allowfullscreen="" loading="lazy"></iframe>
+      <h1><img src="divisoria.png" alt="Divisoria" class="divisoria" /></h1>
+
+      <div class="countdown" id="countdown">
+        Faltam <span id="days"></span> dias para o grande dia!
+      </div>
+
+      <div id="hoje">Chegou o grande dia! 🎉</div>
+
+      <div id="confirmar-presenca" class="button">
+        <a
+          href="https://wa.me/556284775774?text=Olá! Confirmo presença no casamento de *Thalia e Lucas* com muita alegria! Será um prazer fazer parte deste momento tão importante, no dia 12 de julho de 2025. 💕%0a%0aNome completo: %0aNome(s) de demais acompanhantes (quando houver): "
+          target="_blank"
+        >
+          Confirmar Presença
+        </a>
+      </div>
+
+      <div class="info-icons">
+        <div class="icon">
+          <img src="despertador.png" alt="Horário" />
+          <p>16h30</p>
+        </div>
+        <div class="icon">
+          <img src="igreja.png" alt="Local" />
+          <p>Estância Graciosa</p>
+        </div>
+        <div class="icon">
+          <img src="pin.png" alt="Cidade" />
+          <p>Rubiataba-GO</p>
+        </div>
+      </div>
+
+      <p id="nossa-historia"></p>
+      <div id="sobre-nos" class="story">
+        <img src="historia.jpg" alt="Foto do casal" />
+        <div class="text">
+          <h3>Nossa História</h3>
+          <p>
+            Conversamos pela 1ª vez no grupo de WhatsApp do ônibus da faculdade,
+            quando o acaso nos uniu de maneira especial. Desde então,
+            construímos uma jornada de cumplicidade, amor e sonhos
+            compartilhados. Este casamento é o início de um novo capítulo
+            repleto de felicidade e união!
+          </p>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="card">
+          <h3>Lista de Presentes</h3>
+          <p>
+            Confira uma sugestão de lista de presentes e contribua para o nosso
+            novo lar.
+          </p>
+          <div class="button">
+            <a href="presentes.html" target="_blank">Saiba mais</a>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Hospedagem e Beleza</h3>
+          <p>
+            Veja opções de hospedagem e espaços de beleza na cidade da
+            cerimônia.
+          </p>
+          <div class="button">
+            <a href="hospedagem.html" target="_blank">Saiba mais</a>
+          </div>
+        </div>
+      </div>
+
+      <br />
+
+      <iframe
+        id="local"
+        class="map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3850.829135233551!2d-49.786676199999995!3d-15.1677255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9342b369dc063369%3A0x3b76e42853eea471!2sEst%C3%A2ncia%20Graciosa%20-%20Rubiataba%20-%20Go!5e0!3m2!1spt-BR!2sbr!4v1734699299676!5m2!1spt-BR!2sbr"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
     </div>
 
     <footer>
-        <p>&copy; 2025 Thalia & Lucas. Feito com <i class="fas fa-heart" style="color: #ffffff"></i> por uma Garota de TI.</p>
+      <p>
+        &copy; 2025 Thalia & Lucas. Feito com
+        <i class="fas fa-heart" style="color: #ffffff"></i> por uma Garota de
+        TI.
+      </p>
     </footer>
-	
-	<script>
-		function updateCountdown() {
-			const weddingDate = new Date("2025-07-12");
-			const today = new Date();
-			const difference = weddingDate - today;
-			const days = Math.ceil(difference / (1000 * 60 * 60 * 24));
-			document.getElementById("days").textContent = days;
-		}
 
-		updateCountdown();
-	
-		function toggleMenu() {
-			var menu = document.getElementById("menu-list");
-			menu.classList.toggle("show");
-		}
+    <script>
+      function updateCountdown() {
+        const weddingDate = new Date("2025-07-12");
+        const today = new Date();
+        const difference = weddingDate - today;
+        const days = Math.ceil(difference / (1000 * 60 * 60 * 24));
+        var disp = document.getElementById("countdown");
+        var disp2 = document.getElementById("hoje");
+        if (days <= 0) {
+          disp.style.display = "none";
+          disp2.style.display = "block";
+        } else {
+          disp.style.display = "block";
+          disp2.style.display = "none";
+          document.getElementById("days").textContent = days;
+        }
+      }
+
+      updateCountdown();
+
+      document.addEventListener("DOMContentLoaded", function () {
+        const menuToggle = document.querySelector(".menu-toggle");
+        const menuList = document.getElementById("menu-list");
+
+        function toggleMenu() {
+          menuList.classList.toggle("show");
+        }
+
+        function closeMenu() {
+          menuList.classList.remove("show");
+        }
+
+        menuToggle.addEventListener("click", function (event) {
+          toggleMenu();
+          event.stopPropagation();
+        });
+
+        menuList.querySelectorAll("a").forEach((item) => {
+          item.addEventListener("click", closeMenu);
+        });
+
+        document.addEventListener("click", function (event) {
+          if (
+            !menuList.contains(event.target) &&
+            !menuToggle.contains(event.target)
+          ) {
+            closeMenu();
+          }
+        });
+      });
     </script>
-</body>
+  </body>
 </html>
